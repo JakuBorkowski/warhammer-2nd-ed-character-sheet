@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Hero from './hero';
+import HeroDescriptioneron from './hero description';
+import CharacterProfile from './character profile';
+import Wepons from './weapons';
+import Armour from './armour';
+import Player from './player';
+import ExperiencePoint from './experience point';
+import CombatMovment from './combat movment';
+import ArmourPoints from './armour points';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+     <Hero/>
+     <HeroDescriptioneron/>
+     <CharacterProfile/>
+     <Wepons/>
+     <Armour/>
+     <Player/>
+     <ExperiencePoint/>
+     <CombatMovment/>
+     <ArmourPoints/>
     </div>
   );
 }
