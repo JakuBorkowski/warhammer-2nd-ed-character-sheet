@@ -1,0 +1,41 @@
+.element{
+    max-width: 50vw;
+    margin: 20px;
+    border: solid black 2px;
+}
+
+.elementHeader{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 100%;
+    padding: 5px 0;
+    border: solid black 1px;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    border-bottom: black 1px solid;
+}
+.name {
+    width: 40%;
+}
+
+.heroInput {
+    width:60%
+}
+
+.listHeroDescriptioneron{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.shortElement{
+    width: calc(50% - 1px);
+}
+.longElement{
+    width: 100%;
+}

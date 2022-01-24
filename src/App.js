@@ -11,7 +11,7 @@ import ArmourPoints from './armour points';
 
 function App() {
   return (
-    <div>
+    <>
      <Hero/>
      <HeroDescriptioneron/>
      <CharacterProfile/>
@@ -21,7 +21,7 @@ function App() {
      <ExperiencePoint/>
      <CombatMovment/>
      <ArmourPoints/>
-    </div>
+    </>
   );
 }
 

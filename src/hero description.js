@@ -15,7 +15,7 @@ function HeroDescriptioneron() {
       <div className="element">
          <h1 className="elementHeader">OPIS BOCHATERA</h1>
          <ul className="listHeroDescriptioneron">
-          {data.map(data=>{return<li className={data.id<=8? "shortElement":"longElement"} key={data.id}>
+          {data.map(data=>{return<li className={data.id<=8? "shortElement":"longElement"} style={{borderLeft:"black 1px solid"}} key={data.id}>
             <label className="form">
               <p className="name">{data.name}</p>
               <input className="heroInput"></input>
