@@ -1,11 +1,13 @@
+import CharacterProfileElements from "./characterProfile/CharacterProfileElements"
+
 function CharacterProfile() {
 
-
+ 
     return (
-      <>
-         <h1>CECHY</h1>
-  
-      </>
+      <div className="element">
+        <h1 className="elementHeader">CECHY</h1>
+          <CharacterProfileElements/>
+      </div>
     );
   }
   

@@ -39,3 +39,42 @@
 .longElement{
     width: 100%;
 }
+.CharacterProfileElement{
+    display: flex;
+    flex-direction: column;
+}
+.CharacterProfileNamesElement{
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 36%;
+    text-align: center;
+}
+.attribute{
+    display: flex;
+    flex-direction: row;
+}
+.CharacterProfileButtonElement{
+    display: flex;
+    flex-direction: row;
+    line-height: 30px;
+    justify-content: flex-end;
+    width: 64%;
+
+}
+.statButton{
+    border-top: solid black 1px;
+    border-left: solid black 1px;
+  
+}
+.borderBottom{
+    border-bottom: 1px solid black;
+}
+.CharacterProfileButtonElementLi{
+    width: 12.5%;
+}
+.rollButton , .statButton{
+    text-align: center;
+    height: 30px;
+    width: 100%;
+}
