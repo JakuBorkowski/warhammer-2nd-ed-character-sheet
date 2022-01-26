@@ -47,7 +47,7 @@
     line-height: 30px;
     display: flex;
     flex-direction: column;
-    width: 36%;
+    width: 28%;
     text-align: center;
 }
 .attribute{
@@ -59,15 +59,15 @@
     flex-direction: row;
     line-height: 30px;
     justify-content: flex-end;
-    width: 64%;
+    width: 72%;
 
 }
-.statButton{
+.statButton , .weponInput{
     border-top: solid black 1px;
     border-left: solid black 1px;
   
 }
-.borderBottom{
+.borderBottom {
     border-bottom: 1px solid black;
 }
 .CharacterProfileButtonElementLi{
@@ -77,4 +77,22 @@
     text-align: center;
     height: 30px;
     width: 100%;
+}
+.wepon{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.weponInput{
+    width: 100%;
+    height: 20px;
+}
+.weponP{
+    height: 35px;
+    text-align: center;
+    padding: 3px;
+}
+
+.borderTop{
+    border-top: 1px solid black;
 }
