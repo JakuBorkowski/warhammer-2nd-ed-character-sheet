@@ -8,13 +8,12 @@ function Hero() {
 
 ]
   return (
-    <>
     <div className="element" >
        <h1 className="elementHeader">BOCHATER</h1>
         <ul>
           {data.map(data=>{return<li key={data.id}>
             <label className="form">
-              <p className="name">{data.name}</p>
+              <p className="nameHero">{data.name}</p>
               <input className="heroInput"></input>
               </label>
             </li>
@@ -22,7 +21,6 @@ function Hero() {
           )}
         </ul>
       </div>
-    </>
   );
 }
 
