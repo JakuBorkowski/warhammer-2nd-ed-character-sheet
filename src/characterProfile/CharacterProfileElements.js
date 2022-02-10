@@ -13,12 +13,12 @@ function CharacterProfileElement() {
     <ul className="CharacterProfileNamesElement">
       <li><p>Cechy główne</p></li>
       {dataName.map(data=>{
-        return <CharacterProfileNamesElement id={data.id} name={data.name} />
+        return <CharacterProfileNamesElement key={data.id} name={data.name} />
       }
       )}
     </ul>
       <ul className="CharacterProfileButtonElement">
-    {dataMainAttributename.map(data=><CharacterProfileButtonElement name={data.name} id={data.id}/>)}
+    {dataMainAttributename.map(data=><CharacterProfileButtonElement name={data.name} key={data.id}/>)}
       </ul>
     </div>
 
@@ -26,12 +26,12 @@ function CharacterProfileElement() {
     <ul className="CharacterProfileNamesElement">
       <li><p>Cechy drugożędne</p></li>
       {dataName.map(data=>{
-        return <CharacterProfileNamesElement id={data.id} name={data.name} />
+        return <CharacterProfileNamesElement key={data.id} name={data.name} />
       }
       )}
     </ul>
     <ul className="CharacterProfileButtonElement">
-    {datasecondaryAttributename.map(data=><CharacterProfileButtonElement name={data.name} id={data.id}/>)}
+    {datasecondaryAttributename.map(data=><CharacterProfileButtonElement name={data.name} key={data.id}/>)}
     </ul>
       
     </div>
