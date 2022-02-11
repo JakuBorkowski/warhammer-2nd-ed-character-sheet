@@ -1,9 +1,22 @@
+import LabelValueInfo from "./labelValueInfo";
+
 function Armour() {
     const elementID="Armour"
 
+    const dataBasic =[
+      {
+        id:1,
+        name:"Typ opancerzenia",
+      },
+      {
+        id:2,
+        name:"Punkty zbroi",
+      }
+    ]
+
     const lineAdvanceArmourID=[1,2,3,4,5,6]
 
-    const data=[
+    const dataAdvence=[
       {id:1,name:"Typ pancerza", },
       {id:2,name:"Obc",},
       {id:3, name:"Lokalizacja ciała",},
@@ -16,18 +29,14 @@ function Armour() {
       <h1 className="elementHeader">PANCERZ</h1>
       <p>Opancerzenie proste</p>
       <ul className={`basic${elementID}`}>
-        <li className={`basic${elementID}Li`}>
-          <p>Typ opancerzenia</p>
-          <input></input>
-        </li>
-        <li className={`basic${elementID}Li`}>
-          <p>Punkty zbroi</p>
-          <input></input>
-        </li>
+        {dataBasic.map(data=><LabelValueInfo
+          cName={`shortElement50 borderTop ${data.id%2 ? '' : "borderLeft"}`}
+          key={data.id} 
+          name={data.name}/>)}
       </ul>
       <br/><p>Opancerzenie złożone</p><br/>
       <ul className={`advence${elementID}`}>
-        {data.map(data=><li 
+        {dataAdvence.map(data=><li 
         key={data.id} 
         className={data.id%2 ? `advence${elementID}LongElement`:`advence${elementID}ShortElement`}>
           <p>{data.name}</p>

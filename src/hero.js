@@ -1,3 +1,5 @@
+import LabelValueInfo from "./labelValueInfo";
+
 function Hero() {
   const elementID ="hero";
   const data =[
@@ -11,14 +13,10 @@ function Hero() {
     <div className="element" >
        <h1 className="elementHeader">BOCHATER</h1>
         <ul>
-          {data.map(data=>{return<li key={data.id}>
-            <label className="form">
-              <p className="nameHero">{data.name}</p>
-              <input className="heroInput"></input>
-              </label>
-            </li>
-          }
-          )}
+        {data.map(data=><LabelValueInfo
+          cName={''}
+          key={data.id} 
+          name={data.name}/>)}
         </ul>
       </div>
   );

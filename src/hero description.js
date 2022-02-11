@@ -1,3 +1,5 @@
+import LabelValueInfo from "./labelValueInfo";
+
 function HeroDescriptioneron() {
   const data = [
     {name:"Wiek:", id:1,},
@@ -14,15 +16,11 @@ function HeroDescriptioneron() {
     return (
       <div className="element">
          <h1 className="elementHeader">OPIS BOCHATERA</h1>
-         <ul className="listHeroDescriptioneron">
-          {data.map(data=>{return<li className={data.id<=8? "shortElement":"longElement"} style={{borderLeft:"black 1px solid"}} key={data.id}>
-            <label className="form">
-              <p className="name">{data.name}</p>
-              <input className="heroInput"></input>
-              </label>
-            </li>
-          }
-          )}
+         <ul className="heroDescriptioneronUl">
+         {data.map(data=><LabelValueInfo
+          cName={data.id<9 ? "shortElement50" : 'longElement100'}
+          key={data.id} 
+          name={data.name}/>)}
         </ul>
   
       </div>
