@@ -9,7 +9,7 @@ function CharacterProfileElement() {
   return (
     <div className="CharacterProfileElement">
 
-    <div className="attribute ">
+    <div className="attributeCharacterProfile">
     <ul className="CharacterProfileNamesElement">
       <li><p>Cechy główne</p></li>
       {dataName.map(data=>{
@@ -22,7 +22,7 @@ function CharacterProfileElement() {
       </ul>
     </div>
 
-    <div className="attribute">
+    <div className="attributeCharacterProfile">
     <ul className="CharacterProfileNamesElement">
       <li><p>Cechy drugożędne</p></li>
       {dataName.map(data=>{
