@@ -4,7 +4,7 @@ function Wepons() {
     return (
       <div className="element">
          <h1 className="elementHeader">BRONIE</h1>
-         <ul className="wepon">
+         <ul className="weponUl">
           {data.map(data=><li  style={data.id === 1 || data.id === 7 ? {width:"25%"} :{width:"10%"}} key={data.id}>
             <p className="weponP">{data.name}</p>
             <input className={data.id===1?"borderTop , weponInput":"weponInput"}></input>
