@@ -16,7 +16,7 @@ input{
 .element{
     margin: 20px;
     border: solid black 2px;
-    min-width: 750px;
+    min-width: 550px;
 }
 
 .elementHeader{
@@ -143,17 +143,17 @@ input{
 }
 .arPontLi{
     text-align: center;
-    width: 10%;
+    width: 70px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 .arPointLiLeftElement{
     margin-left: 5%;
-    margin-right: 35%;
+    margin-right:calc(45% - 100px);
 }
 .arPointLiRightElement{
     margin-right: 5%;
-    margin-left: 35%;
+    margin-left:calc(45% - 100px);
 }
 .arPontLi > input{
     border: 1px solid black;
@@ -162,4 +162,6 @@ input{
 }
 .arPointP{
     font-size: 25px;
+    height: auto;
+    margin: 5px 0;
 }
