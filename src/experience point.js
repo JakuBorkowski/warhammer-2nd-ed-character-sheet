@@ -1,11 +1,30 @@
+import LabelValueInfo from "./labelValueInfo";
+
 function ExperiencePoint() {
+    const data = [
+      {
+        id:1,
+        name:"Obecnie",
+        cName:"expPointShort"
+      },
+      {
+        id:2,
+        name:"Razem",
+        cName:"expPointLong"
+      },
+    ]
 
 
     return (
-      <>
-         <h1>PUNKTY DOŚWIADCZENIA</h1>
-  
-      </>
+      <div className="element" >
+      <h1 className="elementHeader">PUNKTY DOŚWIADCZENIA</h1>
+       <ul className="expPointUl">
+       {data.map(data=><LabelValueInfo
+         cName={data.cName}
+         key={data.id} 
+         name={data.name}/>)}
+       </ul>
+     </div>
     );
   }
   
