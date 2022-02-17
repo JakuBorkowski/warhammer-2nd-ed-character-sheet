@@ -13,14 +13,13 @@ function ExperiencePoint() {
         cName:"expPointLong"
       },
     ]
-
-
+    
     return (
       <div className="element" >
       <h1 className="elementHeader">PUNKTY DOŚWIADCZENIA</h1>
        <ul className="expPointUl">
        {data.map(data=><LabelValueInfo
-         cName={data.cName}
+         cName={data.id%2 ? data.cName :`${data.cName} borderLeft`}
          key={data.id} 
          name={data.name}/>)}
        </ul>

@@ -97,8 +97,18 @@ input{
     width: 5%;
     text-align: center;
 }
+.advenceArP{
+    padding-top: 10px;
+    line-height: 20px ;
+}
 .basicArmourLi{
     border-bottom: black solid 1px;
+}
+.arElementTitle{
+    line-height: auto;
+    height: auto;
+    padding: 2px;
+    font-weight: 900;
 }
 .labelValueInfo{
    display: flex;
@@ -143,7 +153,7 @@ input{
 }
 .arPontLi{
     text-align: center;
-    width: 70px;
+    width: 100px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -161,7 +171,12 @@ input{
     height: 30px;
 }
 .arPointP{
-    font-size: 25px;
+    font-size: 15px;
     height: auto;
     margin: 5px 0;
+}
+.armourPointsUl{
+    background-image: url("standing-human-body-silhouette.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }

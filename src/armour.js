@@ -27,20 +27,20 @@ function Armour() {
     return (
       <div className="element">
       <h1 className="elementHeader">PANCERZ</h1>
-      <p>Opancerzenie proste</p>
+      <p className="arElementTitle">Opancerzenie proste</p>
       <ul className={`basic${elementID}`}>
         {dataBasic.map(data=><LabelValueInfo
           cName={`shortElement50 borderTop ${data.id%2 ? '' : "borderLeft"}`}
           key={data.id} 
           name={data.name}/>)}
       </ul>
-      <br/><p>Opancerzenie złożone</p><br/>
+      <p className="arElementTitle">Opancerzenie złożone</p>
       <ul className={`advence${elementID}`}>
         {dataAdvence.map(data=><li 
         key={data.id} 
         className={data.id%2 ? `advence${elementID}LongElement`:`advence${elementID}ShortElement`}>
-          <p>{data.name}</p>
-          {lineAdvanceArmourID.map(line=><input 
+        <p className="advenceArP">{data.name}</p>
+        {lineAdvanceArmourID.map(line=><input 
           className={`lineAdvance${elementID}`} 
           style={data.id===1? {borderLeft:"0px"}:null} 
           key={line}></input>)}

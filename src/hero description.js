@@ -18,7 +18,7 @@ function HeroDescriptioneron() {
          <h1 className="elementHeader">OPIS BOCHATERA</h1>
          <ul className="heroDescriptioneronUl">
          {data.map(data=><LabelValueInfo
-          cName={data.id<9 ? "shortElement50" : 'longElement100'}
+          cName={data.id<9 ? `shortElement50 ${data.id%2 ? "" :"borderLeft"}` : 'longElement100'}
           key={data.id} 
           name={data.name}/>)}
         </ul>

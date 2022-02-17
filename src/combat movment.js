@@ -22,7 +22,7 @@ function CombatMovment() {
     <h1 className="elementHeader">PUNKTY DOŚWIADCZENIA</h1>
      <ul className="combatMovmentUl">
      {data.map(data=><LabelValueInfo
-       cName={"combatMovmentLi"}
+       cName={data.id<2 ? "combatMovmentLi" :`combatMovmentLi borderLeft`}
        key={data.id} 
        name={data.name}/>)}
      </ul>
