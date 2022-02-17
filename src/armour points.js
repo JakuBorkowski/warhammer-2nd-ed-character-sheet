@@ -11,7 +11,7 @@ function ArmourPoints() {
       <div className="element" >
       <h1 className="elementHeader">PUNKTY ZBROI</h1>
       <ul className="armourPointsUl">
-      {data.map(data=><li className={`arPontLi ${data.id%2? "arPointLiLeftElement" : "arPointLiRightElement"}`}>
+      {data.map(data=><li key={data.id} className={`arPontLi ${data.id%2? "arPointLiLeftElement" : "arPointLiRightElement"}`}>
         <p className="arPointP longElement100">{data.name}</p>
         <input></input>
         <p className="arPointP longElement100">{data.value}</p>
