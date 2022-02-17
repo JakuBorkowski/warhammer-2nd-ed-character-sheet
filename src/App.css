@@ -13,10 +13,17 @@ p{
 input{
     text-align: center;
 }
+.mainConetner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 .element{
     margin: 20px;
     border: solid black 2px;
     min-width: 550px;
+    max-width: 45vw
 }
 
 .elementHeader{

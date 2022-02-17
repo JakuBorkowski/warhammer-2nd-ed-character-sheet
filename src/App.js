@@ -11,17 +11,21 @@ import ArmourPoints from './armour points';
 
 function App() {
   return (
-    <>
+    <dataContext className='mainConetner'>
+     <div className='leftColumn'>
      <Hero/>
      <HeroDescriptioneron/>
      <CharacterProfile/>
      <Wepons/>
      <Armour/>
-     <Player/>
-     <ExperiencePoint/>
-     <CombatMovment/>
-     <ArmourPoints/>
-    </>
+     </div>
+     <div className='rightColumn'>
+      <Player/>
+      <ExperiencePoint/>
+      <CombatMovment/>
+      <ArmourPoints/>
+    </div>
+      </dataContext>
   );
 }
 
