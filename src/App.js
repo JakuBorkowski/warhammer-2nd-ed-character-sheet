@@ -1,31 +1,33 @@
 import './App.css';
-import Hero from './hero';
-import HeroDescriptioneron from './hero description';
-import CharacterProfile from './character profile';
-import Wepons from './weapons';
-import Armour from './armour';
-import Player from './player';
-import ExperiencePoint from './experience point';
-import CombatMovment from './combat movment';
-import ArmourPoints from './armour points';
+import Hero from './elements/hero';
+import HeroDescriptioneron from './elements/hero description';
+import CharacterProfile from './elements/character profile';
+import Wepons from './elements/weapons';
+import Armour from './elements/armour';
+import Player from './elements/player';
+import ExperiencePoint from './elements/experience point';
+import CombatMovment from './elements/combat movment';
+import ArmourPoints from './elements/armour points';
 
 function App() {
   return (
-    <dataContext className='mainConetner'>
-     <div className='leftColumn'>
+    <>
+     <ul className="mainConetner">
+     <li className='leftColumn'>
      <Hero/>
      <HeroDescriptioneron/>
      <CharacterProfile/>
      <Wepons/>
      <Armour/>
-     </div>
-     <div className='rightColumn'>
+     </li>
+     <li className='rightColumn'>
       <Player/>
       <ExperiencePoint/>
       <CombatMovment/>
       <ArmourPoints/>
-    </div>
-      </dataContext>
+    </li>
+    </ul>
+    </>
   );
 }
 

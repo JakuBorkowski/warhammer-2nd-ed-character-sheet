@@ -183,7 +183,7 @@ input{
     margin: 5px 0;
 }
 .armourPointsUl{
-    background-image: url("standing-human-body-silhouette.png");
+    background-image: url("./elements/atoms/standing-human-body-silhouette.png");
     background-repeat: no-repeat;
     background-position: center;
 }
