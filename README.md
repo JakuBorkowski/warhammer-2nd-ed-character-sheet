@@ -19,7 +19,7 @@ dane pobierane są z providera i przekazywane dalej przy pomocy props, na obecn�
 
 sam provider wraz z danymi został stworzony w odzielnnym pliku aby kod wyglądał czyściej
 ![image](https://user-images.githubusercontent.com/95879071/157030044-1d85f5be-47d5-4abf-8dea-43a4a6ecaf60.png)
-dane to 48 zmiennych (stanów utworzonych przy pomocy useState()) oraz funkcje do ich edytowania, dane będą używane oraz zmieniane się na różnych etapach używania aplikacji, podczas tworzenia postaci, rozwoju (awansu) , samej rozgrywki.
+dane to 48 zmiennych (stanów utworzonych przy pomocy useState()) oraz funkcje do ich edytowania, dane będą używane oraz zmieniane na różnych etapach używania aplikacji, podczas tworzenia postaci, rozwoju (awansu) , samej rozgrywki.
 
 ![image](https://user-images.githubusercontent.com/95879071/157030839-0fd3c8d9-5007-45b9-883e-01fa11a7960b.png)
 
