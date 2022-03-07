@@ -43,8 +43,10 @@ używając guzika z linni "Początkowa" ustawiamy statystykę z ją zaczynamy gr
    z linni "Schemat rozwoju" jeśli obecna wartośc wynosi 0 ustalić nową wartośc, jeśli wyższa rozwinąć statystykę (zmiana widoczna w linni "Aktualna")
    z linni "Aktualna" doknać testu umiejętności (jeśli losowa liczba od 0-100 jest niższa od wartości statystyki test udany) w orginalnej grze postaci mogą z róznych powodów rzut może być utrudniony lub ułatwiony przez mistrza gry, funkcja modyfikatorów będzie rozwijana w dalszym etapie tworzenia aplikacji
 
+ 07.03
+____________________________________
 
-
+  
 -automatyczne zliczanie informacji które tradycyjnie trzeba było liczyć "ręcznie"
 -zmechanizowanie walk
 -dodanie panelu mistrza gry dzięki któremu będzie miał on dostęp do wszytskich danych w wygodnym interfejsie
