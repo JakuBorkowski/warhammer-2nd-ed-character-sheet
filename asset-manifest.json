@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/warhammer-2nd-ed-character-sheet/static/css/main.1982d77d.css",
+    "main.js": "/warhammer-2nd-ed-character-sheet/static/js/main.5eaa1222.js",
+    "static/js/787.28cb0dcd.chunk.js": "/warhammer-2nd-ed-character-sheet/static/js/787.28cb0dcd.chunk.js",
+    "static/media/standing-human-body-silhouette.png": "/warhammer-2nd-ed-character-sheet/static/media/standing-human-body-silhouette.21364766157065fdfc9f.png",
+    "index.html": "/warhammer-2nd-ed-character-sheet/index.html",
+    "main.1982d77d.css.map": "/warhammer-2nd-ed-character-sheet/static/css/main.1982d77d.css.map",
+    "main.5eaa1222.js.map": "/warhammer-2nd-ed-character-sheet/static/js/main.5eaa1222.js.map",
+    "787.28cb0dcd.chunk.js.map": "/warhammer-2nd-ed-character-sheet/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1982d77d.css",
+    "static/js/main.5eaa1222.js"
+  ]
+}
