@@ -35,7 +35,7 @@ proszę zauważyć że ID przekazywane podczas map() rośnie co 2 i odpowiada po
 ![image](https://user-images.githubusercontent.com/95879071/157033144-03e96c05-f508-485d-9cc2-9eb7008ee393.png)
 każdej właściwości towarzyszy funkcją ją zmieniająca znadująca sie na pozycji o jeden wyższej niż sama wartość.
 
-w kolejnym komponencie wartości i funkcje są przypisywane do konkretnych guzików <button>, wartość satej się widoczna 'nazwą' po kliknieciu pojawia się nowy komponent który pozwala 'obsłużyć' wartość zgodnie z jej ostatecznym przeznaczeniem przeznaczeniem
+w kolejnym komponencie wartości i funkcje są przypisywane do konkretnych guzików <button>, wartość satej się widoczna 'nazwą' po kliknieciu pojawia się nowy komponent który pozwala 'obsłużyć' wartość zgodnie z jej ostatecznym przeznaczeniem 
 ![image](https://user-images.githubusercontent.com/95879071/157035740-08d69626-c43a-45cb-b3d4-d4dff05bca8d.png)
 ![image](https://user-images.githubusercontent.com/95879071/157036075-e0df08bd-830b-47d9-b2a2-05f9636618ae.png)
 
