@@ -10,6 +10,9 @@ p{
     font-size: 10px;
     height: 30px;
 }
+button{
+    cursor: pointer;
+}
 input{
     text-align: center;
 }
@@ -63,16 +66,23 @@ input{
     border-top: solid black 1px;
     border-left: solid black 1px;
 }
+.noBorderLeft{
+    border-left: 0px;
+}
 .borderBottom {
     border-bottom: 1px solid black;
 }
 .CharacterProfileButtonElementLi{
     width: 12.5%;
 }
-.rollButton , .statButton{
+.statName , .statButton{
     text-align: center;
     height: 30px;
     width: 100%;
+}
+.statName{
+    font-size: 15px;
+
 }
 .weponUl{
     display: flex;
@@ -186,4 +196,79 @@ input{
     background-image: url("./elements/atoms/standing-human-body-silhouette.png");
     background-repeat: no-repeat;
     background-position: center;
+}
+.ButtonHandling{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 30px;
+    padding: 20px;
+}
+.ButtonHandling>button{
+    width: 100px;
+    margin: 2px auto;
+    padding: 2px 10px;
+    border: solid black 3px;    
+}
+.ButtonHandling>input{
+    border: solid black 1px;
+    height: 30px;
+    width: 50px;
+    margin: 0 auto;
+}
+.ButtonHandling>p{
+    font-size: 15px;
+    line-height: 30px;
+}
+.rollInterfaceOptions>label{
+    display: flex;
+    flex-direction: row;
+}
+.rollInterfaceOptions>label>p{
+    font-size: 20px;
+    margin: 2px 0;
+    width: 30px;
+}
+.rollInterfaceOptions>label>input{
+    margin: auto 10px;
+}
+
+.rollInterface{
+    display: flex;
+    flex-direction: row;
+}
+.rollInterfaceOptions{
+    width: 40%;
+}
+.rollInterfaceButtonAndResult{
+    width: 60%;
+}
+.roll{
+    font-size: 30px;
+    border: 5px solid black;
+    padding: 5%;
+    border-radius: 10px;
+}
+.rollResultSuccess{
+    font-size: 35px;
+    color: green;
+}
+.rollResultFail{
+    font-size: 30px;
+    color: red;
+}
+.rollResultSuccess , .rollResultFail{
+    padding: 10px 0;
+    height: 80px;
+    vertical-align: middle ;
+    display: table-cell;
 }
